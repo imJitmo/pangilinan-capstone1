@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+}
+nav {
+  text-transform: uppercase;
+  font-weight: 550;
+  font-size: 1.1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+p {
+  font-weight: 500;
+}
+
+.wrap-paragraph {
+  font-size: 1.1em;
+  word-wrap: break-word;
+  white-space: pre-line;
+}
+
+.navbar-nav li a {
+  color: #000 !important;
+  font-weight: 700;
+  font-size: 1.3rem;
+  transition: 0.8s;
+}
+
+.navbar-nav li a:hover {
+  color: #6e07f3 !important;
+}
+
+#profile p {
+  font-size: 1.3em;
+}
+
+.img-scale {
+  transition: 0.8s !important;
+}
+
+.img-scale:hover {
+  scale: 1.2 !important;
+}
+
+#profile .btn-primary {
+  background: #6e07f3 !important;
+  border-color: #6e07f3 !important;
+  border-radius: 0;
+  color: #fff !important;
+  padding: 0.5em 4.5em !important;
+  font-size: 1.1rem !important;
+  font-weight: 750 !important;
+  letter-spacing: 1px !important;
+  transition: 0.8s;
+}
+
+#profile .btn-primary:hover {
+  background-color: #000 !important;
+  border-color: #000 !important;
+}
+
+.bg-dark {
+  background-color: #6e07f3 !important;
+  color: #fff !important;
+}
+
+#about p {
+  font-size: 1.1em;
+}
+
+#about a {
+  text-decoration: none;
+  color: #ffe600;
+  transition: 0.8s;
+}
+
+#about a:hover {
+  color: #000;
+}
+
+#about .btn-primary,
+.btn-danger,
+.btn-warning {
+  background-color: #fff !important;
+  border-color: #fff !important;
+
+  color: #000;
+  transition: 0.8s;
+}
+
+#about .btn-primary:hover,
+.btn-danger:hover,
+.btn-warning:hover {
+  background-color: #000 !important;
+  border-color: #000 !important;
+  color: #fff;
+}
+
+#about .progress-bar-striped,
+.progress-bar {
+  background-color: #6e07f3 !important;
+}
+
+#about h2 {
+  font-weight: 650;
+}
+.bg-grey {
+  background-color: #f7f7f7;
+}
+
+#tools {
+  margin-top: -9rem;
+}
+
+#tools img {
+  transition: 0.5s;
+}
+
+#tools img:hover {
+  scale: 1.2;
+}
+
+#projects {
+  margin-top: -8rem;
+}
+
+#projects p {
+  font-size: 1.1em;
+}
+
+#projects .border-bottom,
+#about .border-bottom {
+  border-bottom: 5px solid #fff !important;
+  width: 80px !important;
+  margin: 0 auto !important;
+  border-radius: 25px;
+}
+
+#contact .btn-warning {
+  background-color: #6e07f3 !important;
+  border-color: #6e07f3 !important;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.2em;
+  transition: 0.8s;
+}
+
+#contact .btn-warning:hover {
+  background-color: #000 !important;
+  border-color: #000 !important;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  border-color: #6e07f3 !important;
+  outline: none;
+  box-shadow: 0 0 5px #6e07f3;
+}
+
+.bg-light {
+  background-color: #fff !important;
+}
+
+.border-bottom {
+  border-bottom: 5px solid #6e07f3 !important;
+  width: 80px !important;
+  margin: 0 auto !important;
+  border-radius: 25px;
+}
+
+footer {
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+footer img {
+  transition: 0.8s;
+}
+
+footer img:hover {
+  filter: invert(100%);
+}
+
+footer .border-bottom {
+  border-bottom: 5px solid #fff !important;
+  width: 80px !important;
+  margin: 0 auto !important;
+  border-radius: 25px;
+}
+
+footer .nav-link {
+  font-weight: 600;
+  color: #fff !important;
+  transition: 0.8s;
+}
+
+footer .nav-link:hover {
+  color: #000 !important;
+}
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 900px;
+  width: 100% !important;
+  position: absolute;
+}
+
+.text-warning {
+  color: #6e07f3 !important;
+}
+
+.modal .btn-warning {
+  background-color: #6e07f3 !important;
+  border-color: #6e07f3 !important;
+  padding: 5px 25px !important;
+  border-radius: 25px !important;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.8s;
+}
+
+.modal .btn-warning:hover {
+  background-color: #000 !important;
+  border-color: #000 !important;
+  color: #fff;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(100%) !important;
+}
+
+.bg-secondary {
+  background: #fbfbfb !important;
+}
